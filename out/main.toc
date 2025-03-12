@@ -1,0 +1,60 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Résumé}{1}{Doc-Start}%
+\contentsline {chapter}{Introduction}{6}{chapter*.1}%
+\contentsline {part}{I\hspace {1em}Contexte et problématique}{1}{part.1}%
+\contentsline {chapter}{\numberline {I}Présentation du domaine et des enjeux en cybersécurité}{2}{chapter.1}%
+\contentsline {section}{\numberline {I.1}}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {I.1.1}}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.1.1}}{2}{subsubsection.1.1.1.1}%
+\contentsline {chapter}{\numberline {II}Importance de la détection des vulnérabilités}{4}{chapter.2}%
+\contentsline {section}{\numberline {II.1}}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {II.1.1}}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {II.1.1.1}}{4}{subsubsection.2.1.1.1}%
+\contentsline {section}{\numberline {II.2}}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {III}Problèmes des méthodes classiques et défis posés par la détection en temps réel}{6}{chapter.3}%
+\contentsline {section}{\numberline {III.1}}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {III.1.1}}{6}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {III.1.1.1}}{6}{subsubsection.3.1.1.1}%
+\contentsline {part}{II\hspace {1em}Apports scientifiques de l’article}{7}{part.2}%
+\contentsline {chapter}{\numberline {IV}Explication des trois approches (Zero-shot, Few-shot, Fine-tuning)}{8}{chapter.4}%
+\contentsline {section}{\numberline {IV.1}}{8}{section.4.1}%
+\contentsline {subsection}{\numberline {IV.1.1}}{8}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {IV.1.1.1}}{8}{subsubsection.4.1.1.1}%
+\contentsline {chapter}{\numberline {V}Présentation des modèles utilisés (CodeBERT, Code-Davinci-002, Text-Davinci-003)}{9}{chapter.5}%
+\contentsline {section}{\numberline {V.1}}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {V.1.1}}{9}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.1}}{9}{subsubsection.5.1.1.1}%
+\contentsline {chapter}{\numberline {VI}Expérimentations et résultats observés}{10}{chapter.6}%
+\contentsline {section}{\numberline {VI.1}}{10}{section.6.1}%
+\contentsline {subsection}{\numberline {VI.1.1}}{10}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {VI.1.1.1}}{10}{subsubsection.6.1.1.1}%
+\contentsline {part}{III\hspace {1em}Impacts et applications}{11}{part.3}%
+\contentsline {chapter}{\numberline {VII}Comment ces travaux améliorent le développement logiciel}{12}{chapter.7}%
+\contentsline {section}{\numberline {VII.1}}{12}{section.7.1}%
+\contentsline {subsection}{\numberline {VII.1.1}}{12}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {VII.1.1.1}}{12}{subsubsection.7.1.1.1}%
+\contentsline {chapter}{\numberline {VIII}Conséquences pour l'industrie et la recherche en cybersécurité}{13}{chapter.8}%
+\contentsline {section}{\numberline {VIII.1}}{13}{section.8.1}%
+\contentsline {subsection}{\numberline {VIII.1.1}}{13}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {VIII.1.1.1}}{13}{subsubsection.8.1.1.1}%
+\contentsline {chapter}{\numberline {IX}Études de cas et intégration dans un IDE}{14}{chapter.9}%
+\contentsline {section}{\numberline {IX.1}}{14}{section.9.1}%
+\contentsline {subsection}{\numberline {IX.1.1}}{14}{subsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {IX.1.1.1}}{14}{subsubsection.9.1.1.1}%
+\contentsline {part}{IV\hspace {1em}Analyse critique et perspectives}{15}{part.4}%
+\contentsline {chapter}{\numberline {X}Problèmes éthiques et limites des modèles d’IA}{16}{chapter.10}%
+\contentsline {section}{\numberline {X.1}}{16}{section.10.1}%
+\contentsline {subsection}{\numberline {X.1.1}}{16}{subsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {X.1.1.1}}{16}{subsubsection.10.1.1.1}%
+\contentsline {chapter}{\numberline {XI}Biais, responsabilité et risques d'utilisation malveillante}{17}{chapter.11}%
+\contentsline {section}{\numberline {XI.1}}{17}{section.11.1}%
+\contentsline {subsection}{\numberline {XI.1.1}}{17}{subsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {XI.1.1.1}}{17}{subsubsection.11.1.1.1}%
+\contentsline {chapter}{\numberline {XII}Suggestions d'améliorations et directions futures}{18}{chapter.12}%
+\contentsline {section}{\numberline {XII.1}}{18}{section.12.1}%
+\contentsline {subsection}{\numberline {XII.1.1}}{18}{subsection.12.1.1}%
+\contentsline {subsubsection}{\numberline {XII.1.1.1}}{18}{subsubsection.12.1.1.1}%
+\contentsline {chapter}{Conclusion}{18}{subsubsection.12.1.1.1}%
+\contentsline {chapter}{Annexe 1 :}{1}{chapter*.6}%
+\contentsline {chapter}{Annexe 2 :}{2}{chapter*.7}%
+\contentsline {part}{V\hspace {1em}Bibliographie}{3}{part.5}%

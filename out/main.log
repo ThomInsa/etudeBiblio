@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  16 MAR 2025 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  25 MAR 2025 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1521,7 +1521,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
  (./pageDeGarde.tex
-<figures/logos/Logo_INSA_CVL.jpg, id=299, 1026.83624pt x 516.93124pt>
+<figures/logos/Logo_INSA_CVL.jpg, id=315, 1026.83624pt x 516.93124pt>
 File: figures/logos/Logo_INSA_CVL.jpg Graphic file (type jpg)
 <use figures/logos/Logo_INSA_CVL.jpg>
 Package pdftex.def Info: figures/logos/Logo_INSA_CVL.jpg  used on input line 6.
@@ -1591,7 +1591,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...t intégration dans un IDE}{13}{chapter.8}
+l.40 ...ssification présentées}{14}{section.7.3}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1638,7 +1638,7 @@ l.1 \part{Contexte et problématique}
 
 ] (./part1/Chap11.tex
 Chapitre I.
-<figures/placeholder.jpeg, id=421, 475.7775pt x 227.85126pt>
+<figures/placeholder.jpeg, id=445, 475.7775pt x 227.85126pt>
 File: figures/placeholder.jpeg Graphic file (type jpg)
 <use figures/placeholder.jpeg>
 Package pdftex.def Info: figures/placeholder.jpeg  used on input line 11.
@@ -1747,29 +1747,42 @@ Chapitre VI.
 
 ] (./part3/Chap31.tex
 Chapitre VII.
-) (./part3/Chap32.tex [12
+<figures/Distribution of LLM usages in security domains.png, id=501, 793.96625p
+t x 860.21375pt>
+File: figures/Distribution of LLM usages in security domains.png Graphic file (
+type png)
+<use figures/Distribution of LLM usages in security domains.png>
+Package pdftex.def Info: figures/Distribution of LLM usages in security domains
+.png  used on input line 11.
+(pdftex.def)             Requested size: 386.95897pt x 419.25078pt.
+[12
 
 ]
+Overfull \vbox (40.88383pt too high) has occurred while \output is active []
+
+
+[13 <./figures/Distribution of LLM usages in security domains.png>])
+(./part3/Chap32.tex [14]
 Chapitre VIII.
-) (./part3/Chap33.tex [13
+) (./part3/Chap33.tex [15
 
 ]
 Chapitre IX.
-)) (./part4/part4.tex [14
+)) (./part4/part4.tex [16
 
-] [15
+] [17
 
 ] (./part4/Chap41.tex
 Chapitre X.
-) (./part4/Chap42.tex [16
+) (./part4/Chap42.tex [18
 
 ]
 Chapitre XI.
-) (./part4/Chap43.tex [17
+) (./part4/Chap43.tex [19
 
 ]
 Chapitre XII.
-)) (./resume_intro_conclu/conclusion.tex [18
+)) (./resume_intro_conclu/conclusion.tex [20
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1802,26 +1815,30 @@ l.1 \part{Bibliographie}
                          [3
 
 ])
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \end{document}
+                    [4
 
-LaTeX Warning: Empty bibliography on input line 2.
-
-
+]
 (/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/out
 /main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4BE6806DEBFCD441BA518AB516C4A184;10683.
+(rerunfilecheck)             Checksum: 779DED55E6EF1C1903AAB9CCBD7DBAD9;12562.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43141 strings out of 476025
- 865349 string characters out of 5790017
+ 43423 strings out of 476025
+ 872052 string characters out of 5790017
  1882388 words of memory out of 5000000
- 62710 multiletter control sequences out of 15000+600000
+ 62972 multiletter control sequences out of 15000+600000
  595425 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,13n,102p,1149b,2167s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,13n,102p,1149b,3179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/te
@@ -1832,12 +1849,13 @@ mr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr5.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/lm/lmtt8.pfb>
+/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/lm/lmtt8.pfb>
 Output written on "/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude B
-ibliographique/out/main.pdf" (31 pages, 386865 bytes).
+ibliographique/out/main.pdf" (34 pages, 600972 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 98 named destinations out of 1000 (max. 500000)
- 679 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 716 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,46 @@
 \chapter{Présentation des modèles utilisés (CodeBERT, Code-Davinci-002, Text-Davinci-003)}
-    \section{}
-        \subsection{}
-            \subsubsection{}
+
+
+
+L’étude compare les performances de trois
+modèles de langage spécialisés dans le traitement du code source.
+
+
+
+\section{CodeBERT : un modèle optimisé pour la compréhension du code}
+
+
+
+Développé par Microsoft et Hugging Face, \textbf{CodeBERT}
+est une extension de BERT spécialement entraînée sur des bases de code source.
+Il prend en charge plusieurs langages de programmation, dont Python, Java,
+JavaScript et C++. Son entraînement repose sur un large corpus de \textbf{GitHub},
+ce qui lui permet d’exceller dans la compréhension syntaxique et sémantique du
+code.
+
+
+
+Dans cette étude, CodeBERT a été testé en
+fine-tuning et a obtenu \textbf{les meilleures performances globales} en termes
+de précision et de rappel.
+
+
+
+\section{Code-Davinci-002 : un modèle génératif appliqué à la détection}
+
+
+
+Issu des modèles GPT-3 d’OpenAI, \textbf{Code-Davinci-002}
+est une version optimisée pour la génération et l’analyse de code. Il a été
+testé en \textbf{zero-shot et few-shot}, avec des résultats encourageants mais
+inférieurs à ceux de CodeBERT en fine-tuning.
+
+
+
+\section{Text-Davinci-003 : une capacité d’analyse avancée mais limitée}
+
+
+
+\textbf{Text-Davinci-003}, une version avancée de GPT-3, a montré de bons résultats en
+zero-shot grâce à son \textbf{rappel élevé}. Cependant, sa faible précision
+limite son utilisation pour une détection fiable des vulnérabilités.

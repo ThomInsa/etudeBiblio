@@ -1,4 +1,121 @@
+\begin{center} L’article «Transformer-based Vulnerability
+Detection in Code at EditTime: Zero-shot, Few-shot, or Fine-tuning?» explore
+l’utilisation des modèles de langage basés sur les transformeurs pour détecter
+les vulnérabilités dans le code informatique en temps réel. Cette approche vise
+à identifier et corriger les failles dès la phase de rédaction du code, avant
+même qu’il ne soit exécuté ou compilé.
+
+
+
+Pour y parvenir, les auteurs de l’étude ont
+testé trois stratégies d’apprentissage : le \textbf{zero-shot learning}, le \textbf{few-shot
+learning} et le \textbf{fine-tuning}. Ces trois approches exploitent des
+modèles pré-entraînés sur des corpus de code, mais diffèrent en termes de
+niveau d’adaptation aux tâches spécifiques de détection de vulnérabilités.
+
+
+
+En complément de cette étude, plusieurs
+modèles de langage spécialisés dans le code ont été évalués, notamment \textbf{CodeBERT,
+Code-Davinci-002 et Text-Davinci-003}. Les résultats des expériences menées
+permettent de comparer ces approches et de mesurer leur efficacité en termes de
+précision, de rappel et d’adaptabilité aux divers scénarios rencontrés en
+programmation.\end{center}
 \chapter{Explication des trois approches (Zero-shot, Few-shot, Fine-tuning)}
-    \section{}
-        \subsection{}
-            \subsubsection{}
+
+
+
+\section{Zero-shot Learning : l’application immédiate des modèles pré-entraînés}
+
+L’approche \textbf{zero-shot learning} consiste à utiliser un modèle de langage déjà entraîné
+sur une large base de code, sans lui fournir d’exemples spécifiques de vulnérabilités. L’objectif est
+de voir dans quelle mesure ce modèle est capable d’identifier des failles
+uniquement grâce aux connaissances acquises lors de son entraînement initial.
+
+Cette méthode présente un avantage majeur :
+elle ne nécessite aucun travail d’adaptation du modèle, ce qui permet une
+implémentation rapide. Toutefois, cette absence de spécialisation a aussi un
+inconvénient majeur : la performance de détection reste limitée, avec un taux
+relativement élevé de \textbf{faux positifs et faux négatifs}. Le modèle peut
+identifier certaines failles évidentes, mais il a du mal à reconnaître des
+vulnérabilités plus subtiles ou spécifiques à un contexte particulier.
+
+L’étude a montré que l’utilisation de \textbf{Text-Davinci-003}
+en zero-shot permet d’atteindre un \textbf{rappel de 78\%}, c’est-à-dire que la
+plupart des vulnérabilités sont détectées. Cependant, la précision est
+relativement faible, ce qui signifie que le modèle génère un grand nombre
+d’alertes non pertinentes.
+
+
+
+\section{Few-shot Learning :
+l’amélioration progressive grâce à des exemples ciblés}
+
+
+
+Dans l’approche \textbf{few-shot learning},
+on fournit au modèle quelques exemples annotés de code vulnérable et de code
+sécurisé. Ces exemples lui servent de référence pour ajuster ses prédictions et
+améliorer sa capacité à détecter les vulnérabilités dans d’autres extraits de
+code.
+
+
+
+Cette méthode présente un bon compromis
+entre le zero-shot et le fine-tuning. En effet, elle améliore la performance du
+modèle sans nécessiter un réentraînement complet. Grâce aux exemples fournis,
+le modèle apprend à mieux distinguer les structures de code potentiellement
+dangereuses.
+
+
+
+L’expérimentation réalisée dans l’article
+montre que \textbf{Code-Davinci-002}, utilisé en few-shot, améliore la détection
+des vulnérabilités par rapport au zero-shot. Le modèle parvient à mieux
+contextualiser les failles et réduit le nombre de fausses alertes. Toutefois,
+la performance reste inférieure à celle du fine-tuning, car le modèle ne
+bénéficie pas d’un apprentissage approfondi sur un large jeu de données
+spécifique.
+
+
+
+\section{Fine-tuning : l’adaptation
+complète à la détection des vulnérabilités}
+
+
+
+Le \textbf{fine-tuning} consiste à prendre un
+modèle de langage pré-entraîné et à le réentraîner sur un jeu de données
+spécifique contenant des exemples annotés de vulnérabilités. Cette méthode
+permet d’adapter entièrement le modèle à la tâche de détection des failles de
+sécurité.
+
+
+
+Le principal avantage du fine-tuning est
+qu’il offre une \textbf{précision bien plus élevée} que les deux autres
+approches. En entraînant le modèle sur des données spécifiques aux
+vulnérabilités, on lui apprend à reconnaître avec plus de fiabilité les failles
+dans le code.
+
+
+
+L’article a testé \textbf{CodeBERT} en
+fine-tuning sur un corpus de \textbf{500 000 extraits de code}, comprenant des
+exemples de vulnérabilités et de bonnes pratiques en programmation. Les
+résultats obtenus montrent que cette approche offre \textbf{le meilleur équilibre
+entre précision (59\%) et rappel (63\%)}. Cela signifie que le modèle détecte
+un grand nombre de vulnérabilités tout en limitant les fausses alertes.
+
+
+
+Cependant, cette méthode présente aussi
+quelques inconvénients. Le processus de fine-tuning est coûteux en ressources
+computationnelles et nécessite un jeu de données annoté de grande qualité. De
+plus, un modèle fine-tuné sur un langage ou un type de vulnérabilité
+particulier pourrait être moins performant sur d’autres langages ou contextes
+de programmation.
+
+
+
+

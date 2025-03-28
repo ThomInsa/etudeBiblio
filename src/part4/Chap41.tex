@@ -1,4 +1,123 @@
 \chapter{Problèmes éthiques et limites des modèles d’IA}
-    \section{}
-        \subsection{}
-            \subsubsection{}
+
+
+
+\section{Analyse critique et perspectives}
+
+
+
+L'article \textit{"Transformer-based
+Vulnerability Detection in Code at Edit-Time: Zero-shot, Few-shot, or
+Fine-tuning?"} aborde un sujet crucial dans le domaine de la
+cybersécurité et du développement logiciel. L'utilisation de modèles de type
+Transformer pour détecter les vulnérabilités en temps réel, avant la
+compilation, représente une avancée significative par rapport aux méthodes
+traditionnelles qui nécessitent une analyse post-compilation.
+
+
+
+\subsection{Analyse éthique du sujet}
+
+
+
+L’intégration
+de modèles d’IA dans la détection automatique des vulnérabilités soulève
+plusieurs questions éthiques :
+
+
+
+\section{Biais et équité des modèles}
+
+
+
+L'un des
+principaux problèmes des modèles basés sur l’intelligence artificielle réside
+dans leur dépendance aux données d’entraînement. Si les ensembles de données
+utilisés pour entraîner les modèles contiennent des biais (par exemple, un
+sous-représentation de certains langages de programmation ou types de
+vulnérabilités), cela peut entraîner des erreurs systématiques dans la
+détection.
+
+
+
+Par
+ailleurs, il est possible que le modèle identifie certains types de code comme
+étant plus susceptibles de contenir des vulnérabilités, même si ce n’est pas le
+cas, simplement parce qu’ils sont statistiquement plus fréquents dans les
+données d'entraînement. Ce phénomène peut conduire à une stigmatisation
+involontaire de certains styles de programmation ou à des faux positifs
+pénalisants pour les développeurs.
+
+
+
+\section{Confidentialité et sécurité des données}
+
+
+
+L’intégration
+d’outils d’IA dans les environnements de développement pose également des
+questions de confidentialité. Si l’analyse du code s’effectue localement, le
+risque est limité. Cependant, certains outils exploitent des modèles hébergés
+sur des serveurs distants, ce qui implique l’envoi de fragments de code vers
+des infrastructures externes.
+
+
+
+Cela soulève
+plusieurs préoccupations :
+
+
+
+\begin{itemize}
+
+ \item \textbf{Fuites
+     de données} : Des informations sensibles pourraient être
+     exposées si les communications ne sont pas suffisamment sécurisées.
+
+ \item \textbf{Propriété
+     intellectuelle} : L'envoi de code source vers des serveurs tiers
+     pourrait compromettre la protection des droits de propriété des
+     entreprises.
+
+ \item \textbf{Conformité
+     aux réglementations} : Certaines entreprises sont soumises à des
+     réglementations strictes en matière de gestion des données et ne peuvent
+     pas utiliser des outils basés sur le cloud sans garanties suffisantes.
+
+\end{itemize}
+
+
+\section{Responsabilité en cas d’erreur}
+
+
+
+Si un modèle
+d’IA échoue à détecter une vulnérabilité critique, qui en est responsable ?
+Cette question reste un point de débat majeur. Plusieurs scénarios sont
+envisageables :
+
+
+
+\begin{itemize}
+
+ \item \textbf{Le
+     développeur} : Doit-il vérifier systématiquement toutes les
+     alertes et ne pas se fier uniquement aux recommandations du modèle ?
+
+ \item \textbf{L’éditeur
+     du logiciel} : Peut-il être tenu pour responsable s’il
+     intègre un outil de détection automatisée qui s’avère imparfait ?
+
+ \item \textbf{Le
+     fournisseur de l’outil d’IA} : A-t-il une responsabilité légale si son modèle
+     ne fonctionne pas correctement ?
+
+\end{itemize}
+
+
+En l’absence d’un cadre réglementaire clair, cette problématique demeure ouverte et pourrait
+devenir un enjeu juridique majeur à l’avenir
+
+
+
+

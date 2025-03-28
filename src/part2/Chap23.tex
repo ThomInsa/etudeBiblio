@@ -1,4 +1,97 @@
 \label{ExpRO}\chapter{Expérimentations et résultats observés}
-    \section{}
-        \subsection{}
-            \subsubsection{}
+
+L’étude a comparé les modèles et les
+approches selon des critères de précision et de rappel.
+
+\begin{table}
+        \centering
+        \begin{tabular}{lllll}
+            \toprule
+            \textbf{Approche} & \textbf{Modèle} & \textbf{Précision} & \textbf{Rappel} & \textbf{Observations} \\
+            \midrule
+
+  \textbf{Zero-shot}
+
+
+   &
+  Text-Davinci-003
+
+
+   &
+  ~50%
+
+
+   &
+  78%
+
+
+   &
+  Nombre élevé de faux positifs.
+
+
+   \\
+
+  \textbf{Few-shot}
+
+
+   &
+  Code-Davinci-002
+
+
+   &
+  ~55%
+
+
+   &
+  70%
+
+
+   &
+  Meilleure contextualisation des
+  vulnérabilités.
+
+
+   \\
+
+  \textbf{Fine-tuning}
+
+
+   &
+  CodeBERT
+
+
+   &
+  59%
+
+
+   &
+  63%
+
+
+   &
+  Meilleur équilibre entre détection et
+  précision.
+
+
+   \\
+            \bottomrule
+        \end{tabular}
+        \caption{}
+        \label{tab:}
+    \end{table}
+
+
+Les résultats montrent que \textbf{CodeBERT
+fine-tuné} est la solution la plus efficace pour la détection des
+vulnérabilités en temps réel.
+
+
+
+De plus, lorsqu’il est intégré dans \textbf{VSCode},
+l’outil a permis une \textbf{réduction de 80\% des vulnérabilités détectées}
+pendant l’édition du code, et jusqu’à \textbf{90\% pour du code généré
+automatiquement par GitHub Copilot}.
+
+
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  28 MAR 2025 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  28 MAR 2025 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1591,7 +1591,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...nte au déploiement}{17}{subsection.8.1.1}
+l.40 ...nte au déploiement}{15}{subsection.8.1.1}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1732,36 +1732,31 @@ File: figures/Distribution of LLM usages in security domains.png Graphic file (
 type png)
 <use figures/Distribution of LLM usages in security domains.png>
 Package pdftex.def Info: figures/Distribution of LLM usages in security domains
-.png  used on input line 11.
-(pdftex.def)             Requested size: 386.95897pt x 419.25078pt.
-[14
+.png  used on input line 12.
+(pdftex.def)             Requested size: 241.84843pt x 262.03009pt.
+) (./part3/Chap32.tex [14
 
-]
-Overfull \vbox (40.88383pt too high) has occurred while \output is active []
-
-
-[15 <./figures/Distribution of LLM usages in security domains.png>])
-(./part3/Chap32.tex [16]
+ <./figures/Distribution of LLM usages in security domains.png>]
 Chapitre VIII.
-) (./part3/Chap33.tex [17
+) (./part3/Chap33.tex [15
 
 ]
 Chapitre IX.
-)) (./part4/part4.tex [18
+)) (./part4/part4.tex [16
 
-] [19
+] [17
 
 ] (./part4/Chap41.tex
 Chapitre X.
-[20
+[18
 
-]) (./part4/Chap42.tex [21]
+]) (./part4/Chap42.tex [19]
 Chapitre XI.
-) (./part4/Chap43.tex [22
+) (./part4/Chap43.tex [20
 
 ]
 Chapitre XII.
-)) (./resume_intro_conclu/conclusion.tex [23
+)) (./resume_intro_conclu/conclusion.tex [21
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1796,14 +1791,14 @@ l.45 \end{document}
 (/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/out
 /main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F09F1FCA989E4A2E0972A35EF57D61B5;15651.
+(rerunfilecheck)             Checksum: D92E87E2065702CFB126DF9CF6FFB733;15706.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43416 strings out of 476025
- 872348 string characters out of 5790017
+ 43414 strings out of 476025
+ 872384 string characters out of 5790017
  1882388 words of memory out of 5000000
  62974 multiletter control sequences out of 15000+600000
  595425 words of font info for 86 fonts, out of 8000000 for 9000
@@ -1822,10 +1817,10 @@ texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/public/lm/lmtt8.pfb>
 Output written on "/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude B
-ibliographique/out/main.pdf" (33 pages, 623914 bytes).
+ibliographique/out/main.pdf" (31 pages, 622620 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 645 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 119 named destinations out of 1000 (max. 500000)
  668 words of extra memory for PDF output out of 10000 (max. 10000000)
 

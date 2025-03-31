@@ -1,67 +1,76 @@
-\chapter{Présentation du domaine et des enjeux en cybersécurité}
-    \section{}
-        \subsection{}
-            \subsubsection{}
-                \begin{equation}\label{eq:Eq1}
-                    a+b = c
-                \end{equation}
-                \myequations{Une équation simple}
-                \begin{figure}[H]
-                    \centering
-                    {\fbox{\includegraphics[width = 0.8\textwidth]{figures/placeholder}}}
-                    \caption{Exemple de figure}
-                \end{figure}
-                \begin{lstlisting}[caption={Un code Python}]
-print("This line will be printéd.")
-print("Another line to print."\end{lstlisting}
-                \begin{tcolorbox}[colback=linkborder_Color!5!white,colframe=linkborder_Color!75!black]
-                    \textit{Ceci est un exemple d'encadré. Il sert à mettre en évidence des parties importantes du rapport}
-                \end{tcolorbox}
-                \begin{table}[H]
-                    \centering
-                    \begin{tabular}{lcccc}
-                        \toprule
-                        \textbf{Donnée} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
-                        \midrule
-                         &  &  &  &  \\
-                         &  &  &  &  \\
-                         &  &  &  &  \\
-                         &  &  &  &  \\
-                        \bottomrule
-                    \end{tabular}
-                    \caption{Exemple de tableau}
-                \end{table}
-                \begin{table}[H]
-                    \centering
-                    \begin{tabular}{p{0.2\textwidth}|u|d|t|q} \toprule
-                        \textbf{Tâche} &  &  &  &
-                        \\
-                        \midrule
-                        \textbf{Donnée}&  &  & 0 & 0\\
-                        \bottomrule
-                    \end{tabular}
-                    \caption{Exemple de tableau coloré}
-                \end{table}
+Les logiciels non sécurisés coûtent très cher aux entreprises, en dépit des moyens très
+avancés (outils, recherche) qui s’emploient à la recherche de vulnérabilités. En effet, une
+grande partie des vulnérabilités échappe aux outils de détection existants, laissant des
+failles potentielles de sécurité pour les utilisateurs et pour les systèmes d’information. Pour
+aggraver la situation, les délais entre la création effective de la vulnérabilité dans le code et
+sa découverte et correction effectives sont longs. La plupart des solutions d’analyse
+existantes exigent pour cela un code compilable et exécutable. Ce retard crée la même
+vulnérabilité mais à l’effet de la correction de plus grande complexité.
+Les millions de dépôts publics présents sur la plateforme GitHub traduisent cette montée en
+flèche des surfaces d’attaques, qui fait de la détection proactive une démarche
+incontournable pour déceler les vulnérabilités. Parallèlement, les modèles architecturaux
+pour toutes les applications devenant de plus en plus complexes, grâce aux frameworks,
+bibliothèques tierces et micro-services qui en multipliant les points d’injection potentielles,
+ouvrent de nouveaux vecteurs d’attaques.
+Dans un tel contexte, il apparaît clairement que le nouvel objectif est la détection des
+vulnérabilités dès l’EditTime du code, même s’il est partiel ni syntaxiquement erroné. Pour
+cela, l’objectif est d’offrir une détection interactive immédiate aux développeurs., afin qu’ils
+aient la possibilité de corriger les défauts de sécurité survenus dès leur apparition, sans
+attendre la phase de compilation/exécution.
+Ce concept s’inscrit parfaitement dans l’approche ‘shift-left’ en cybersécurité, inscrite dans le
+cœur du DevSecOps, qui vise à intégrer la sécurité le plus tôt possible dans le cycle de
+développement. Notons également qu’un bon nombre de vulnérabilités peut être imputé à la
+mauvaise connaissance ou la méconnaissance de la sécurité par les développeurs. Ainsi,
+en ayant une détection de failles dès le début du processus, il serait possible de réduire les
+risques et, par voie de conséquence, d’améliorer la sécurité des logiciels en général, grâce à
+une sensibilisation accrue.
+    \begin{center}Comment concevoir des outils capables de détecter de manière efficace et en
+    temps
+    réel les
+éventuelles vulnérabilités dans du code incomplet, afin à la fois de réduire les délais de
+correction, arrondir la qualité logicielle mais aussi de sécuriser le code dès les premières
+phases de son développement ?\end{center}
 
-            \begin{figure}[H]
-                \centering
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                    \subfloat[Sous-légende]{\fbox{
-                        \includegraphics[width = 0.28\textwidth]{figures/placeholder}}}\qquad
-                \caption{Exemple avec plusieurs figures}
-            \end{figure}
+\chapter{Présentation du domaine et des enjeux en cybersécurité}
+    La cybersécurité prend une importance centrale alors que notre société s’automatise, la
+première vulnérabilité concernée est le logiciel, qui, comme tout produit technologique,
+souffre des défauts incriminés susceptibles de compromettre la sécurité des données, des
+utilisateurs et des systèmes. Pour faire face à ce défi majeur, deux techniques du logiciel de
+sécurité ont traditionnellement la faveur des experts, il s’agit de l’analyse dynamique ou de
+l’analyse statique. L’analyse dynamique est fondée sur l’exécution effective du code,
+révélant les vulnérabilités selon le comportement observé, mais souffre d’un fort problème
+de couverture persistant, rendant peu réalisables un trop grand nombre d’exécutions
+possibles du logiciel. L’analyse statique s’intéresse, elle, au code source ou le code binaire
+sans exécuter le logiciel, favorisant ainsi la couverture. Elle nécessite cependant la mise en
+place d’une définition manuelle des règles par des experts sur le terrain, ce qui rend
+compliqué un accompagnement en tant que stratégie de mesure de la sécurité, lourd
+d’efforts et donc ruineux eu égard à l’accélération de l’apparition de nouvelles menaces.
+En réponse à ces difficultés, l’intelligence artificielle, et singulièrement le machine learning et
+le deep learning, offre des voies prometteuses. En effet, les méthodes traditionnelles de
+machine learning reposent sur un ensemble de features extraites manuellement, provoquant
+une dépendance à l’humain et des charges lourdes au niveau de la maintenance des
+modèles. En revanche, les techniques de deep learning, et tout particulièrement celles
+basées sur des modèles de type transformers amènent à une automatisation des
+apprentissages des motifs de vulnérabilité directement à partir de grandes bases de
+données de code.
+Ces nouvelles méthodes constituent de réelles avancées en ce sens qu’elles permettent
+d’accroître très nettement la couverture et la précision des détections. Elles sont en outre
+bien plus adaptées à l’analyse de code auto-généré par les outils d’assistance au
+développement tels que GitHub Copilot ou Codex. Le raisonnement s’appuie sur l’hypothèse
+selon laquelle malgré leur indéniable efficacité, ces modèles d’IA générative peuvent
+introduire des vulnérabilités dans les logiciels, ce que rend d’autant plus problématique
+l’absence de contrôle.
+Une autre constante d’évolution est celle de la menace. Auparavant, elle pouvait se
+considérer comme technique, actuellement elle ne l’est plus, comme ces vulnérabilités
+exploitées massivement par des bots, ou ces attaques utilisant en toute discrétion des failles
+de type 0-day pour lesquelles aucun correctif n’existe sous forme de patch. La sécurité
+logicielle devient une exigence autant réglementaire, à travers des normes telles l’ISO/IEC
+27001, la directive européenne NIS2, ou encore de la FDA pour les logiciels médicaux, qui
+avenant la nécessité d’être vigilant et du besoin de solidité des systèmes informatiques.
+De surcroît, la diversité et la multitude de vulnérabilités sont sources de complexité : le
+nombre de nouvelles vulnérabilités dans la base de données CVE/NVD dépasse le millier
+tous les ans, ce qui ne peut se gérer (et réagir) qu’avec des outils, humains, mais pas
+uniquement. D’où la nécessité accrue dans la stratégie des entreprises d’intégrer les
+modèles de langage (LLMs) en soutien au développement en intégrant la sécurité des
+solutions dès les premières étapes de développement, pour protéger efficacement les
+utilisateurs finaux et réduire de façon drastique le risque en production.

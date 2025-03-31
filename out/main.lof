@@ -1,24 +1,13 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {I.1}{\ignorespaces Exemple de figure\relax }}{2}{figure.caption.1}%
-\contentsline {figure}{\numberline {I.2}{\ignorespaces Exemple avec plusieurs figures\relax }}{3}{figure.caption.4}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.6}%
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.7}%
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.8}%
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Sous-légende}}}{3}{subfigure.2.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {VII.1}{\ignorespaces Distribution of LLM usages in security domains \blx@tocontentsinit {0}\cite {citing4}\relax }}{14}{figure.caption.6}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {VII.1}{\ignorespaces Répartition de l'utilisation de LLM pour des tâches de sécurité\blx@tocontentsinit {0}\cite {citing4}\relax }}{13}{figure.caption.2}%
+\contentsline {figure}{\numberline {VII.2}{\ignorespaces Schéma conceptuel du fonctionnement de \texttt {Microsoft Copilot for Security}\relax }}{14}{figure.caption.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,10 +1,111 @@
-\chapter{Conséquences pour l'industrie et la recherche en cybersécurité : }
-    % Cite 19, 22
-    % 38 pour les métriques actuelles
-    \section{}
-        \subsection{}
-            \subsubsection{}
-    \section{}
+\chapter{Conséquences pour l'industrie et la recherche}
+    Nous avons vu en\ref{part1} une entrevue des coûts réels des vulnérabilités logicielles
+    pour les entreprises et les institutions publiques. La littérature scientifique à ce sujet
+    est vaste\cite{vuln_cost},\cite{vuln_cost2} et montre l'importance que revêt le
+    développement et le déploiement d'outils de détection de vulnérabilités logicielles plus
+    performants.
+    \section{Projets industriels}
+        Malgré quelques recherches orientées vers des projets en cours menés par des
+        entreprises, et pour des raisons évidentes de confidentialité, il est difficile
+        d'estimer comment les résultats de l'article peuvent s'inscrire à court terme dans
+        l'industrie du logiciel. On peut tout de même citer les travaux de NVIDIA visant à
+        moderniser les outils d'énumération traditionnels
+\footnote{
+    \url{https://docs.nvidia.com/nemo/guardrails/latest/evaluation/llm-vulnerability-scanning.html}} ainsi que d'autres articles proposés
+        par des structures externes au monde de la recherche \footnote{\url{https://www.tigera.io/learn/guides/llm-security/}},
+        \footnote{\url{https://www.securityjourney.com/ai/llm-tools-secure-coding}}.
     \section{Continuité de la recherche}
-        \subsection{Sélection et préparation des données : des méthodes encourageantes}
-        % 4 articles citant le principal
+
+        Un peu moins de deux ans après la publication originale de l'article, on note d'une part
+        la démocratisation du développement logiciel assisté par LLM \cite{citing5} et d'autre
+        part les problèmes de sécurité propres à ces nouvelles méthodes de développement\cite{citing1, citing2, citing3, citing4}.
+        \subsection{Développement par LLM et évolution en conséquence des méthodes de détection de vulnérabilité}
+            Les publications citées \textit{(s'appuyant toutes sur l'article principal)} ne
+            présentent pas de consensus quant à la différence de niveau de sécurité entre le code
+            partiellement ou totalement généré, et le code développé par les seules méthodes
+            conventionnelles. Cette absence de consensus est notamment due à l'apparition très
+            récente des LLM dans les projets industriels et académiques.
+
+            En revanche, on peut esquisser deux conclusions :
+            \begin{itemize}
+                \item Si le niveau de vulnérabilité ne diminue pas de manière universelle avec
+                l'emploi de LLM, il est tout de même crucial de revoir les méthodes de détection
+                traditionnelles car les vulnérabilités générées par LLM ne sont pas nécessairement
+                semblables à celles générées par le développement strictement humain
+                \item En particulier, il apparaît que le développement par LLM peut prendre des
+                formes plurielles et renforce paradoxalement l'importance du facteur humain pendant
+                les phases de développement. À cet égard, il serait intéressant de définir plus
+                finement ce que l'on nomme "développement par LLM" et selon une métrique plus
+                normative
+                \textit{(taille des prompts, part des éléments du projet "délégués" à l'IA, profil et qualifications des développeurs ...)}
+                pour préciser les résultats des publications étudiées
+        \end{itemize}
+
+        \subsection{Large Language Models et détection de vulnérabilités : promesses et limites}
+
+            \subsubsection{Sélection et préparation des données : des méthodes encourageantes}
+                % 4 articles citant le principal
+            \subsubsection{Failles du modèle et pistes d'amélioration}
+                \paragraph*{Compromis entre taille du modèle et délai de réponse}
+                \paragraph*{Vulnérabilités non détectées}
+                    \begin{table}[H]
+                        \centering
+                        \begin{tabular}{lcc}
+                                \toprule
+                                \textbf{Vulnerability} & \textbf{CWE} & \textbf{N} \\
+                                \midrule
+                                \text{SQL Injection} & 89 & 45 \\
+                                \text{Hardcoded Credentials} & 798 & 23 \\
+                                \text{Code Injection} & 94 & 13 \\
+                                \text{Path Injection} & 22 & 7 \\
+                                \text{Clear Text Logging} & 312 & 5 \\
+                                \text{Weak Cryptographic Algorithm} & 327 & 5 \\
+                                \text{Incomplete URL Substring Sanitization} & 20 & 2 \\
+                                \bottomrule
+                        \end{tabular}
+                        \caption{Statistiques récapitulatives des problèmes de vulnérabilité
+                        recueillis à partir des PR GitHub\cite{mainArticle}}
+                    \end{table}
+
+
+
+                \paragraph*{Langages non couverts}
+                    L'étude a choisi de se concentrer sur 7 langages de programmation
+                    universels. Cette sélection est difficilement contestable si l'on se réfère
+                    à leur omniprésence historique et actuelle dans le développement logiciel \textit{(Indice TIOBE en mars 2025\footnote{https://www.tiobe.com/tiobe-index/})}.
+
+                    Cependant, on peut penser que l'étude pourrait renforcer son impact si elle
+                    était prolongée sur des langages moins utilisés mais tout de même bien
+                    ancrés dans le paysage du développement
+                    \textit{(on pense immédiatement à Rust pour le développement logiciel, et on pourrait citer R ou Julia pour étendre la portabilité de l'outil sur les logiciels de calcul scientfiques)}.
+                    \begin{table}[H]
+                        \centering
+                        \begin{tabular}{lccc}
+                            \toprule
+                            \textbf{Langage} & \textbf{Nombre de CWE couvertes} &
+                            \textbf{Codes vulnérables} & \textbf{Codes non vulnérables} \\
+                            \midrule
+                            \texttt{Javascript} & 70 & 266,342 & 2,293,712 \\
+                            \texttt{Python} & 37 & 149,158 & 1,493,972 \\
+                            \texttt{Go} & 29 & 50,233 & 535,180 \\
+                            \texttt{Java} & 44 & 33,485 & 431,726 \\
+                            \texttt{C++} & 32 & 7,222 & 215,722 \\
+                            \texttt{C\#} & 54 & 3,341 & 27,731 \\
+                            \texttt{Ruby} & 19 & 137 & 1,957 \\
+                            \bottomrule
+                        \end{tabular}
+                        \caption{Quelques statistiques sur les données d'entraînement\cite{mainArticle}}
+                    \end{table}
+                \paragraph*{Le double défi de la confidentialité et de la transparence}
+                    À ce stade, les autres problématiques soulevées par l'utilisation de LLM
+                    n'ont pas été abordées. Si elles dépassent le strict cadre de l'étude
+                    bibliographique, il n'est pas inutile de rappeler que la sécurisation des
+                    modèles devra s'accompagner d'une prise en compte de ces problématiques.
+
+                    Ainsi, les modèles présentés dans l'article n'échappent pas à ces problèmes de
+                    transparence et de confidentialité, bien que ce dernier n'en fasse pas
+                    mention. On peut citer \cite{rennes}
+                    \textit{(publié notamment par l'INSA Rennes)} comme proposition d'un LLM de détection de
+                    vulnérabilités faisant mention explicite de ses considération en matière de transparence,
+                    notamment eu égard à la collecte et au traitement des données
+                    d'entraînement. Les deux articles proposant un modèle fonctionnant sous \texttt{BERT}\footnote{on rappelle que le modèle \texttt{CodeBERT} est le plus efficace des trois présentés plus haut}, leur étude croisée pourrait aboutir à une approche plus globale quant au développement logiciel par LLM.

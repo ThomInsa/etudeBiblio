@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[84] biber-darwin:340> INFO - === Fri Mar 28, 2025, 14:53:48
-[103] Biber.pm:419> INFO - Reading 'main.bcf'
-[196] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[211] Biber.pm:4419> INFO - Processing section 0
-[224] Biber.pm:4610> INFO - Looking for bibtex file 'main.bib' for section 0
-[351] bibtex.pm:1713> INFO - LaTeX decoding ...
-[369] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/src/main.bib'
-[612] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[612] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[612] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
-[612] Biber.pm:4245> INFO - No sort tailoring available for locale 'fr-FR'
-[642] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[679] bbl.pm:763> INFO - Output to main.bbl
-[680] Biber.pm:131> WARN - Name in key '50' is empty (probably consecutive 'and'): skipping entry '50'
-[680] Biber.pm:131> WARN - BibTeX subsystem: substring 4, warning: empty substring
-[680] Biber.pm:133> INFO - WARNINGS: 2
+[74] biber-darwin:340> INFO - === Mon Mar 31, 2025, 11:23:09
+[93] Biber.pm:419> INFO - Reading 'main.bcf'
+[169] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[182] Biber.pm:4419> INFO - Processing section 0
+[193] Biber.pm:4610> INFO - Looking for bibtex file 'main.bib' for section 0
+[307] bibtex.pm:1713> INFO - LaTeX decoding ...
+[324] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/src/main.bib'
+[569] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[570] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[570] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[570] Biber.pm:4245> INFO - No sort tailoring available for locale 'fr-FR'
+[597] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[633] bbl.pm:763> INFO - Output to main.bbl
+[634] Biber.pm:131> WARN - Name in key '50' is empty (probably consecutive 'and'): skipping entry '50'
+[634] Biber.pm:131> WARN - BibTeX subsystem: substring 4, warning: empty substring
+[634] Biber.pm:133> INFO - WARNINGS: 2

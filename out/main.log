@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  28 MAR 2025 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  31 MAR 2025 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1521,7 +1521,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
  (./pageDeGarde.tex
-<figures/logos/Logo_INSA_CVL.jpg, id=290, 1026.83624pt x 516.93124pt>
+<figures/logos/Logo_INSA_CVL.jpg, id=226, 1026.83624pt x 516.93124pt>
 File: figures/logos/Logo_INSA_CVL.jpg Graphic file (type jpg)
 <use figures/logos/Logo_INSA_CVL.jpg>
 Package pdftex.def Info: figures/logos/Logo_INSA_CVL.jpg  used on input line 6.
@@ -1586,12 +1586,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
-
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+3.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...nte au déploiement}{15}{subsection.8.1.1}
+l.36 ...critique et perspectives}{18}{section.9.1}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1602,13 +1606,13 @@ l.40 ...nte au déploiement}{15}{subsection.8.1.1}
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [3]
+
 (/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/out
 /main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [4] (./resume_intro_conclu/introduction.tex
+ (./resume_intro_conclu/introduction.tex [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1619,92 +1623,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \part{Contexte et problématique}
-                                      [1
+l.1 \label{part1}\part{Contexte et problématique}
+                                                   [1
 
 ] (./part1/Chap11.tex
-Chapitre I.
-<figures/placeholder.jpeg, id=404, 475.7775pt x 227.85126pt>
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 11.
-(pdftex.def)             Requested size: 386.95897pt x 185.32338pt.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 14.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-4.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44                 \end{table}
-                                 [2
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loca
-l/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./figures/placeholder.
-jpeg>]
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 49.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 51.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 53.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 55.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 57.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 59.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 61.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 63.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
-File: figures/placeholder.jpeg Graphic file (type jpg)
-<use figures/placeholder.jpeg>
-Package pdftex.def Info: figures/placeholder.jpeg  used on input line 65.
-(pdftex.def)             Requested size: 135.43452pt x 64.8583pt.
+l.34 \chapter
+             {Présentation du domaine et des enjeux en cybersécurité}
+[2]
+Chapitre I.
 ) (./part1/Chap12.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Importance de la détection des vulnérabilités} [3]
+            {Importance de la détection des vulnérabilités} [3
+
+]
 Chapitre II.
+) (./part1/Chap13.tex [4
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5     \newpage
-                 [4
-
-]) (./part1/Chap13.tex [5]
+]
 Chapitre III.
-)) (./part2/part2.tex [6
+)) (./part2/part2.tex [5
 
-] [7
+] [6
 
-] (./part2/Chap21.tex [8]
+] (./part2/Chap21.tex [7]
 Chapitre IV.
 
 Overfull \hbox (29.81944pt too wide) in paragraph at lines 52--52
@@ -1712,50 +1661,59 @@ Overfull \hbox (29.81944pt too wide) in paragraph at lines 52--52
 � des exemples
  []
 
-[9
+[8
 
-]) (./part2/Chap22.tex [10]
+]) (./part2/Chap22.tex [9]
 Chapitre V.
-) (./part2/Chap23.tex [11
+) (./part2/Chap23.tex [10
 
 ]
 Chapitre VI.
-)) (./part3/part3.tex [12
+)) (./part3/part3.tex [11
 
-] [13
+] [12
 
 ] (./part3/Chap31.tex
 Chapitre VII.
-<figures/Distribution of LLM usages in security domains.png, id=472, 793.96625p
+<figures/Distribution of LLM usages in security domains.png, id=369, 793.96625p
 t x 860.21375pt>
 File: figures/Distribution of LLM usages in security domains.png Graphic file (
 type png)
 <use figures/Distribution of LLM usages in security domains.png>
 Package pdftex.def Info: figures/Distribution of LLM usages in security domains
-.png  used on input line 12.
-(pdftex.def)             Requested size: 241.84843pt x 262.03009pt.
-) (./part3/Chap32.tex [14
+.png  used on input line 10.
+(pdftex.def)             Requested size: 386.95897pt x 419.25078pt.
+[13
 
  <./figures/Distribution of LLM usages in security domains.png>]
+<figures/security-copilot-diagram.png, id=381, 475.4011pt x 268.75406pt>
+File: figures/security-copilot-diagram.png Graphic file (type png)
+<use figures/security-copilot-diagram.png>
+Package pdftex.def Info: figures/security-copilot-diagram.png  used on input li
+ne 32.
+(pdftex.def)             Requested size: 386.95897pt x 218.76402pt.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 37.
+)
+(./part3/Chap33.tex [14 <./figures/security-copilot-diagram.png>]
 Chapitre VIII.
-) (./part3/Chap33.tex [15
 
-]
-Chapitre IX.
-)) (./part4/part4.tex [16
+Package hyperref Warning: Suppressing empty link on input line 2.
 
-] [17
+[15
+
+])) (./part4/part4.tex [16] [17
 
 ] (./part4/Chap41.tex
-Chapitre X.
+Chapitre IX.
 [18
 
 ]) (./part4/Chap42.tex [19]
-Chapitre XI.
+Chapitre X.
 ) (./part4/Chap43.tex [20
 
 ]
-Chapitre XII.
+Chapitre XI.
 )) (./resume_intro_conclu/conclusion.tex [21
 
 ]
@@ -1773,6 +1731,21 @@ l.1 \part{Bibliographie}
                          [1
 
 ])
+Overfull \hbox (361.85626pt too wide) in paragraph at lines 43--43
+\T1/lmtt/m/n/10 Expires = 1743259891 & Signature = OXN2 -[] NDnTwqgEuyxIaXR4DRT
+A3jChwv624CgaMt6cM6enpQxXbQbtqBUY9yXNQ2waViwCOmORJ~ME0qPyOsQJNrpQh6wlNYgknvwrJ7
+xlhypzc~J0S0OFv661gjFUk -[]
+ []
+
+
+Overfull \hbox (676.35535pt too wide) in paragraph at lines 43--43
+\T1/lmtt/m/n/10 tR5oWMMslp~57gcysxNIzL4Tf6m~ODTtOBY7f2nZIhdlMYnD4vnQZ -[] QaKBn
+Yp5IyU6FvnR~mcHNPrgGcyOuj~vmtEhtP9c23goy3hVNrugf7NIyNPt4nsrV2B4s~wD9lGQmppJSRTv
+gdV5YWixPv2XlgjON6TCemwAEZ4ay9V7TdVLcWMTFATa5BpAhPOXZUBdft2hR43XXjp86k2907CqA _
+
+ []
+
+
 Overfull \hbox (3.3591pt too wide) in paragraph at lines 43--43
 []\T1/lmr/m/it/10 Awesome Au-to-ma-ted Vul-ne-ra-bi-lity De-tec-tion\T1/lmr/m/n
 /10 . 2024. \T1/lmr/m/sc/10 url \T1/lmr/m/n/10 : []$\T1/lmtt/m/n/10 https : / /
@@ -1784,43 +1757,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \end{document}
-                    [2
+l.43     \input{biblio/biblio}
+                               [2
 
 ]
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \end{document}
+                    [3]
 (/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/out
 /main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D92E87E2065702CFB126DF9CF6FFB733;15706.
+(rerunfilecheck)             Checksum: 46A2C10E4055794896CE6982CF87E3C5;14448.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43414 strings out of 476025
- 872384 string characters out of 5790017
- 1882388 words of memory out of 5000000
- 62974 multiletter control sequences out of 15000+600000
- 595425 words of font info for 86 fonts, out of 8000000 for 9000
+ 42960 strings out of 476025
+ 868482 string characters out of 5790017
+ 1874388 words of memory out of 5000000
+ 62536 multiletter control sequences out of 15000+600000
+ 600025 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,13n,102p,1149b,3179s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,13n,102p,1149b,3180s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
-e/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/te
-xmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/l
-mr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr5.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
-e1/public/lm/lmtt8.pfb>
+e/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/texmf-dist/
+fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
+/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/
+lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
+pe1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/lm/lmtt8.pfb>
 Output written on "/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude B
-ibliographique/out/main.pdf" (31 pages, 622620 bytes).
+ibliographique/out/main.pdf" (31 pages, 780094 bytes).
 PDF statistics:
- 645 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
- 668 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 540 words of extra memory for PDF output out of 10000 (max. 10000000)
 

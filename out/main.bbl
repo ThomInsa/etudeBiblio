@@ -19,6 +19,115 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{vuln_cost2}{article}{}
+      \name{author}{7}{}{%
+        {{hash=27b01d1399933cbd331e927d868a7b85}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Afsah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e0a999ca909642606b3ea9679272f888}{%
+           family={Khormali},
+           familyi={K\bibinitperiod},
+           given={Aminollah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5b53fa9e49da82434bb385c20ef9fba7}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Jinchun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=05ba6bc70c4498479a3554d5df69adae}{%
+           family={Alasmary},
+           familyi={A\bibinitperiod},
+           given={Hisham},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cb2ca3d2ca2d16ae16de512586d06775}{%
+           family={Choi1},
+           familyi={C\bibinitperiod},
+           given={Sung\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=689f117e271edc9c56445767c5e8e1eb}{%
+           family={Nyang},
+           familyi={N\bibinitperiod},
+           given={DaeHun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c352ed6b0ba7765c161009397c02778d}{%
+           family={Mohaisen},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {EAI Endorsed Transactions on Security}%
+        {Safety}%
+      }
+      \strng{namehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{fullhash}{0c10fe081009dbd5a7ce064c673ac9d7}
+      \strng{bibnamehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{authorbibnamehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{authornamehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{authorfullhash}{0c10fe081009dbd5a7ce064c673ac9d7}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{title}{Measuring the Cost of Software Vulnerabilities}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/94423818/eai.13-7-2018-libre.pdf?1668727337=&response-content-disposition=inline%3B+filename%3DMeasuring_the_Cost_of_Software_Vulnerabi.pdf&Expires=1743259891&Signature=OXN2-NDnTwqgEuyxIaXR4DRTA3jChwv624CgaMt6cM6enpQxXbQbtqBUY9yXNQ2waViwCOmORJ~ME0qPyOsQJNrpQh6wlNYgknvwrJ7xlhypzc~J0S0OFv661gjFUk-tR5oWMMslp~57gcysxNIzL4Tf6m~ODTtOBY7f2nZIhdlMYnD4vnQZ-QaKBnYp5IyU6FvnR~mcHNPrgGcyOuj~vmtEhtP9c23goy3hVNrugf7NIyNPt4nsrV2B4s~wD9lGQmppJSRTvgdV5YWixPv2XlgjON6TCemwAEZ4ay9V7TdVLcWMTFATa5BpAhPOXZUBdft2hR43XXjp86k2907CqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \endverb
+      \verb{url}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/94423818/eai.13-7-2018-libre.pdf?1668727337=&response-content-disposition=inline%3B+filename%3DMeasuring_the_Cost_of_Software_Vulnerabi.pdf&Expires=1743259891&Signature=OXN2-NDnTwqgEuyxIaXR4DRTA3jChwv624CgaMt6cM6enpQxXbQbtqBUY9yXNQ2waViwCOmORJ~ME0qPyOsQJNrpQh6wlNYgknvwrJ7xlhypzc~J0S0OFv661gjFUk-tR5oWMMslp~57gcysxNIzL4Tf6m~ODTtOBY7f2nZIhdlMYnD4vnQZ-QaKBnYp5IyU6FvnR~mcHNPrgGcyOuj~vmtEhtP9c23goy3hVNrugf7NIyNPt4nsrV2B4s~wD9lGQmppJSRTvgdV5YWixPv2XlgjON6TCemwAEZ4ay9V7TdVLcWMTFATa5BpAhPOXZUBdft2hR43XXjp86k2907CqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \endverb
+    \endentry
+    \entry{vuln_cost}{article}{}
+      \name{author}{4}{}{%
+        {{hash=27b01d1399933cbd331e927d868a7b85}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Afsah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e0a999ca909642606b3ea9679272f888}{%
+           family={Khormali},
+           familyi={K\bibinitperiod},
+           given={Aminollah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=689f117e271edc9c56445767c5e8e1eb}{%
+           family={Nyang},
+           familyi={N\bibinitperiod},
+           given={DaeHun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0f4666765e6fd90a51102a69538a2aa4}{%
+           family={Mohaisen},
+           familyi={M\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Central Florida}%
+      }
+      \strng{namehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{fullhash}{4a8fe84816f24fa2d97d6b0ef583a122}
+      \strng{bibnamehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{authorbibnamehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{authornamehash}{aadea9168917b2a30c544e36475c1bb7}
+      \strng{authorfullhash}{4a8fe84816f24fa2d97d6b0ef583a122}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding the Hidden Cost of Software Vulnerabilities: Measurements and Predictions}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.cs.ucf.edu/~mohaisen/doc/sc18.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.ucf.edu/~mohaisen/doc/sc18.pdf
+      \endverb
+    \endentry
     \entry{Awersome_Automated_Vulnerability_Detection}{misc}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -96,7 +205,6 @@
       \field{month}{05}
       \field{title}{Transformer-based Vulnerability Detection in Code at EditTime : Zero-shot, Few-shot, or Fine-tuning ?}
       \field{year}{2023}
-      \true{nocite}
     \endentry
     \entry{evaluatingLLMs}{article}{}
       \name{author}{58}{}{%
@@ -414,6 +522,21 @@
       \verb https://arxiv.org/pdf/2107.03374
       \endverb
     \endentry
+    \entry{Copilot_Security}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{Copilot amplifies insecure codebases by replicating vulnerabilities in your projects}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://snyk.io/blog/copilot-amplifies-insecure-codebases-by-replicating-vulnerabilities/
+      \endverb
+      \verb{url}
+      \verb https://snyk.io/blog/copilot-amplifies-insecure-codebases-by-replicating-vulnerabilities/
+      \endverb
+    \endentry
     \entry{Copilot}{online}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -427,6 +550,44 @@
       \endverb
       \verb{url}
       \verb https://github.com/features/copilot
+      \endverb
+    \endentry
+    \entry{rennes}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1fcb16c0b860a5fabc84cc69249d86be}{%
+           family={Haurogné},
+           familyi={H\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4f383e620d367b6fe156b74ffcd702fc}{%
+           family={Basheer},
+           familyi={B\bibinitperiod},
+           given={Nihala},
+           giveni={N\bibinitperiod}}}%
+        {{hash=36e08970c63fe89d346cc4fe03754e8c}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Shareeful},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d21cfce4c2ddabaa3fbab0d7ba1ccf57}
+      \strng{fullhash}{d21cfce4c2ddabaa3fbab0d7ba1ccf57}
+      \strng{bibnamehash}{d21cfce4c2ddabaa3fbab0d7ba1ccf57}
+      \strng{authorbibnamehash}{d21cfce4c2ddabaa3fbab0d7ba1ccf57}
+      \strng{authornamehash}{d21cfce4c2ddabaa3fbab0d7ba1ccf57}
+      \strng{authorfullhash}{d21cfce4c2ddabaa3fbab0d7ba1ccf57}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Vulnerability detection using BERT based LLM model with transparency obligation practice towards trustworthy AI}
+      \field{year}{7}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666827024000744
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666827024000744
       \endverb
     \endentry
     \entry{citing1}{article}{}
@@ -495,7 +656,6 @@
       \field{month}{12}
       \field{title}{Large Language Models for Software Engineering: A Systematic Literature Review}
       \field{year}{2024}
-      \true{nocite}
       \verb{urlraw}
       \verb https://arxiv.org/pdf/2308.10620
       \endverb
@@ -638,6 +798,45 @@
       \field{year}{2020}
       \true{nocite}
     \endentry
+    \entry{CVD_ComparativeAnalysis}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3e65123fbc4911cf2c699a2b403e5ab4}{%
+           family={Sultana},
+           familyi={S\bibinitperiod},
+           given={Shaznin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6c808c2365fbe6e8f9689bdcc3501974}{%
+           family={Afreen},
+           familyi={A\bibinitperiod},
+           given={Sadia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=69ad3e70167eacec64f41045748f0833}{%
+           family={Eisty},
+           familyi={E\bibinitperiod},
+           given={Nasir\bibnamedelima U.},
+           giveni={N\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{06315a9f79b791777d3aa2cdaeae1277}
+      \strng{fullhash}{06315a9f79b791777d3aa2cdaeae1277}
+      \strng{bibnamehash}{06315a9f79b791777d3aa2cdaeae1277}
+      \strng{authorbibnamehash}{06315a9f79b791777d3aa2cdaeae1277}
+      \strng{authornamehash}{06315a9f79b791777d3aa2cdaeae1277}
+      \strng{authorfullhash}{06315a9f79b791777d3aa2cdaeae1277}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Boise State University}
+      \field{title}{Code Vulnerability Detection: A Comparative Analysis of Emerging Large Language Models}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2409.10490
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2409.10490
+      \endverb
+    \endentry
     \entry{IntelliCode}{article}{}
       \name{author}{4}{}{%
         {{hash=f504be962fed8d94d847b9167c1fe68b}{%
@@ -720,37 +919,6 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{citing2}{article}{}
-      \name{author}{1}{}{%
-        {{hash=05f512179fed68b1ca1ee431203b3781}{%
-           family={Understanding\bibnamedelimb of\bibnamedelimb Large\bibnamedelimb Language\bibnamedelimb Models\bibnamedelimb in\bibnamedelimb Software\bibnamedelimb Engineering\bibnamedelima Tasks},
-           familyi={U\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim i\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Towards},
-           giveni={T\bibinitperiod},
-           prefix={an},
-           prefixi={a\bibinitperiod}}}%
-      }
-      \strng{namehash}{05f512179fed68b1ca1ee431203b3781}
-      \strng{fullhash}{05f512179fed68b1ca1ee431203b3781}
-      \strng{bibnamehash}{05f512179fed68b1ca1ee431203b3781}
-      \strng{authorbibnamehash}{05f512179fed68b1ca1ee431203b3781}
-      \strng{authornamehash}{05f512179fed68b1ca1ee431203b3781}
-      \strng{authorfullhash}{05f512179fed68b1ca1ee431203b3781}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{title}{Zibin Zheng and Kaiwen Ning and Qingyuan Zhong and Jiachi Chen and Wenqing Chen and Lianghong Guo and Weicheng Wang and Yanlin Wang}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://arxiv.org/pdf/2308.11396
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/pdf/2308.11396
-      \endverb
-    \endentry
     \entry{attentionAYN}{article}{}
       \name{author}{8}{}{%
         {{hash=7f28e84700536646dd6620a0db07ad09}{%
@@ -805,7 +973,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in Neural Information Processing Systems}
-      \field{title}{Transformer-based Vulnerability Detection in Code at EditTime : Zero-shot, Few-shot, or Fine-tuning ?}
+      \field{title}{Attention is all you need}
       \field{year}{2017}
       \true{nocite}
     \endentry
@@ -877,6 +1045,70 @@
       \verb https://arxiv.org/pdf/2405.04760
       \endverb
     \endentry
+    \entry{citing5}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e3220a42156da00c93c30614e72015f5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ziyin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1e18a4707e4d2b9dc7746377b2bf4408}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chaoyu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e337c3bb3d4aa0169f75b13062b58c7a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bingchang},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37c6d4dbed66e623fd42ee09164cbd42}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f93edfd4b5fd0e8b07f3c94280e7f7c8}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Zi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ae4593c7991de68e791a0764ba51ec45}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Hang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fc40cef5ef949b4d1fa96d1360af8f9c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jianguo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9a8e37c2db183faff113a94a5dbc4914}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{37d47941a6b75a88316aed7e311ad812}
+      \strng{fullhash}{2aa45bf566109635fb12c67b4278d763}
+      \strng{bibnamehash}{37d47941a6b75a88316aed7e311ad812}
+      \strng{authorbibnamehash}{37d47941a6b75a88316aed7e311ad812}
+      \strng{authornamehash}{37d47941a6b75a88316aed7e311ad812}
+      \strng{authorfullhash}{2aa45bf566109635fb12c67b4278d763}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint}
+      \field{month}{06}
+      \field{title}{Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2311.07989
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2311.07989
+      \endverb
+    \endentry
     \entry{citing3}{article}{}
       \name{author}{7}{}{%
         {{hash=94aeb96f7bbdfa5f304dc958ab7f265c}{%
@@ -921,6 +1153,7 @@
       \strng{authorbibnamehash}{7167798026dee376319381ec60b4dd1a}
       \strng{authornamehash}{7167798026dee376319381ec60b4dd1a}
       \strng{authorfullhash}{6ecc9631fb206bb1223b2fda77026cb0}
+      \field{extraname}{1}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
@@ -928,12 +1161,75 @@
       \field{month}{01}
       \field{title}{A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends}
       \field{year}{2024}
-      \true{nocite}
       \verb{urlraw}
       \verb https://arxiv.org/pdf/2311.10372
       \endverb
       \verb{url}
       \verb https://arxiv.org/pdf/2311.10372
+      \endverb
+    \endentry
+    \entry{citing2}{article}{}
+      \name{author}{8}{}{%
+        {{hash=94aeb96f7bbdfa5f304dc958ab7f265c}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Zibin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=afeb5308fed6e4266e19e0a1521af178}{%
+           family={Ning},
+           familyi={N\bibinitperiod},
+           given={Kaiwen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c5084ec50160b1f2a8fe5147ba138705}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Qingyuan},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=973029edc692b68e98d375a4e5295df7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jiachi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ff472a23a039016d1bf45f538a7077bc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wenqing},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7d6b45585c0ac253c2173e33a08b6f83}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Lianghong},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f0b0fb284e90378b7a3bf2642a467d54}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Weicheng},
+           giveni={W\bibinitperiod}}}%
+        {{hash=908df746fef4f4c2c7f1202239c0d041}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yanlin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7167798026dee376319381ec60b4dd1a}
+      \strng{fullhash}{f3aa5db6b6b9a98fea7aeb8e2ce6660e}
+      \strng{bibnamehash}{7167798026dee376319381ec60b4dd1a}
+      \strng{authorbibnamehash}{7167798026dee376319381ec60b4dd1a}
+      \strng{authornamehash}{7167798026dee376319381ec60b4dd1a}
+      \strng{authorfullhash}{f3aa5db6b6b9a98fea7aeb8e2ce6660e}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Towards an Understanding of Large Language Models in Software Engineering Tasks}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2308.11396
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2308.11396
       \endverb
     \endentry
   \enddatalist

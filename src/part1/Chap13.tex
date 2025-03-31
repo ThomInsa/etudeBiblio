@@ -1,4 +1,47 @@
 \chapter{Problèmes des méthodes classiques et défis posés par la détection en temps réel}
-    \section{}
-        \subsection{}
-            \subsubsection{}
+    Les méthodes classiques de détection des vulnérabilités souffrent de plusieurs limites
+essentielles, qui nuisent à leur efficacité dans un mode de détection instantané.
+Premièrement, ces méthodes classiques sont, notamment les outils d’analyse statique,
+comme CodeQL, nécessitant quasiment un code source complet et sans erreur syntaxique.
+Dans l’article « Evaluating Static Analysis Tools for Vulnerability Detection » IEEE
+Transactions on Software Engineering (2022), il est montré que 40% des vulnérabilités sont
+non détectées pour un code source incomplet ou comportant des erreurs minimes. De ce
+fait, il est évident que ce type de méthode s’avère peu pertinent pour une détection
+instantanée dès la phase d’écriture du code. Qui plus est, ces méthodes reposent sur des
+règles rigides et existentiellement définies, dont le maintient à jour nécessite en permanence
+de gros efforts humains. Ainsi une étude du Journal of Information Security and Applications
+(2021) estime que 25 % du temps total des équipes de sécurité applicative est mobilisé à ce
+seul travail, ce qui se traduit par un coût humain difficilement acceptable. Dès lors, à chaque
+émergence de nouvelles vulnérabilités critiques dans une application correspond des efforts
+considérables pour adapter au mieux les règles statutaires existantes, limitant ainsi leur
+capacité d’adaptation face à de nouveaux types de vulnérabilités.
+Selon l’approche adoptée ( analyse statique ou dynamique ), ces outils classiques sont
+souvent sujets à des compromis sévères, comme le montre une étude du NIST de 2021 qui
+a révélé que les outils statiques génèrent jusqu’à 30 % de faux positifs et diminuent ainsi la
+confiance des développeurs, quand les vulnérabilités critiques leur échappent souvent dans
+les outils dynamiques, avec environ 20 % de failles détectées selon la même étude. Le défi
+de la détection de vulnérabilités en temps réel (EditTime) s’additionne donc à d’autres défis
+spécifiques. L’un des verrous principaux réside dans l’analyse efficace de fragments de code
+souvent incomplets ou syntactiquement erronés en cours de saisie, qui nécessite le recours
+à des modèles analytiques à faible latence, très précision et aisément intégrables aux
+environnements de développement intégrés (IDE) tels que VSCode ou IntelliJ, sans
+compromettre la productivité du développeur.
+Le compromis délicat entre précision et rappel doit également être respecté : si l’on veut
+donner confiance aux développeurs, il faut réduire le nombre de faux positifs, donc
+maximiser la couverture des vulnérabilités majeures. Comme le montre une étude de
+l’Empirical Software Engineering Journal (2023), au-delà de 10 % de faux positifs, les
+équipes techniques (tutoiement utilisé dans la suite) finissent souvent par arrêter d’utiliser
+l’outil. La scalabilité est aussi un défi important, les outils devant pouvoir traiter efficacement
+différents langages de programmation, différents contextes applicatifs et diverses
+vulnérabilités. La gestion adéquate du code produit « automatiquement » par des modèles
+de type LLM (Large Language Models) complexifie encore le tout, et notamment à cause de
+la multiformité et la structure imprévisible de ce type de code.
+De plus, certaines vulnérabilités complexes, comme les injections SQL avancées ou les
+erreurs d’authentification plus classiques, nécessitent une bonne connaissance du flux des
+données et un bon repérage du contexte général de l’application complexifiant ainsi
+l’analyse instantanée et pertinente.
+Enfin, pour être largement adoptés par les développeurs, ces outils doivent être simples,
+voire légers, conviviaux et facilement personnalisables selon le besoin de chaque équipe ou
+de chaque entreprise. Un déploiement fluide et adaptable dans les IDE modernes peut être
+un critère important pour une adoption efficace et pérenne des solutions de détection des
+vulnérabilités en temps réel.

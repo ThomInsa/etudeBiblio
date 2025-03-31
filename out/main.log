@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  31 MAR 2025 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.12)  31 MAR 2025 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -222,47 +222,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count274
 \calc@Cskip=\skip97
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
-Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document
- pages
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen163
-\Gin@req@width=\dimen164
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
@@ -287,11 +246,11 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
-\ex@=\dimen165
+\ex@=\dimen163
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
+\pmbraise@=\dimen164
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
@@ -313,7 +272,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen167
+\big@size=\dimen165
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count280
@@ -331,12 +290,12 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count285
 \maxfields@=\count286
 \andhelp@=\toks24
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
 \@envbody=\toks25
 \multlinegap=\skip108
 \multlinetaggap=\skip109
@@ -362,55 +321,55 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count287
-\l_MT_multwidth_dim=\dimen174
+\l_MT_multwidth_dim=\dimen172
 \origjot=\skip110
-\l_MT_shortvdotswithinadjustabove_dim=\dimen175
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen176
-\l_MT_above_intertext_sep=\dimen177
-\l_MT_below_intertext_sep=\dimen178
-\l_MT_above_shortintertext_sep=\dimen179
-\l_MT_below_shortintertext_sep=\dimen180
+\l_MT_shortvdotswithinadjustabove_dim=\dimen173
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen174
+\l_MT_above_intertext_sep=\dimen175
+\l_MT_below_intertext_sep=\dimen176
+\l_MT_above_shortintertext_sep=\dimen177
+\l_MT_below_shortintertext_sep=\dimen178
 \xmathstrut@box=\box53
-\xmathstrut@dim=\dimen181
+\xmathstrut@dim=\dimen179
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen182
-\lightrulewidth=\dimen183
-\cmidrulewidth=\dimen184
-\belowrulesep=\dimen185
-\belowbottomsep=\dimen186
-\aboverulesep=\dimen187
-\abovetopsep=\dimen188
-\cmidrulesep=\dimen189
-\cmidrulekern=\dimen190
-\defaultaddspace=\dimen191
+\heavyrulewidth=\dimen180
+\lightrulewidth=\dimen181
+\cmidrulewidth=\dimen182
+\belowrulesep=\dimen183
+\belowbottomsep=\dimen184
+\aboverulesep=\dimen185
+\abovetopsep=\dimen186
+\cmidrulesep=\dimen187
+\cmidrulekern=\dimen188
+\defaultaddspace=\dimen189
 \@cmidla=\count288
 \@cmidlb=\count289
-\@aboverulesep=\dimen192
-\@belowrulesep=\dimen193
+\@aboverulesep=\dimen190
+\@belowrulesep=\dimen191
 \@thisruleclass=\count290
 \@lastruleclass=\count291
-\@thisrulewidth=\dimen194
+\@thisrulewidth=\dimen192
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen195
+\col@sep=\dimen193
 \ar@mcellbox=\box54
-\extrarowheight=\dimen196
+\extrarowheight=\dimen194
 \NC@list=\toks27
 \extratabsurround=\skip111
 \backup@length=\skip112
 \ar@cellbox=\box55
 )
-\TX@col@width=\dimen197
-\TX@old@table=\dimen198
-\TX@old@col=\dimen199
-\TX@target=\dimen256
-\TX@delta=\dimen257
+\TX@col@width=\dimen195
+\TX@old@table=\dimen196
+\TX@old@col=\dimen197
+\TX@target=\dimen198
+\TX@delta=\dimen199
 \TX@cols=\count292
 \TX@ftn=\toks28
 )
@@ -421,7 +380,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTpre=\skip115
 \LTpost=\skip116
 \LTchunksize=\count293
-\LTcapwidth=\dimen258
+\LTcapwidth=\dimen256
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
@@ -436,6 +395,26 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen257
+\Gin@req@width=\dimen258
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
@@ -512,8 +491,6 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \minrowclearance=\skip124
 \rownum=\count309
 )
-LaTeX Info: Redefining \color on input line 711.
-
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
@@ -865,6 +842,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.1'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ))
@@ -1015,6 +995,9 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -1036,13 +1019,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
 \c@section@level=\count349
 )
 \@linkdim=\dimen329
 \Hy@linkcounter=\count350
 \Hy@pagecounter=\count351
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
@@ -1521,7 +1507,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
  (./pageDeGarde.tex
-<figures/logos/Logo_INSA_CVL.jpg, id=226, 1026.83624pt x 516.93124pt>
+<figures/logos/Logo_INSA_CVL.jpg, id=219, 1026.83624pt x 516.93124pt>
 File: figures/logos/Logo_INSA_CVL.jpg Graphic file (type jpg)
 <use figures/logos/Logo_INSA_CVL.jpg>
 Package pdftex.def Info: figures/logos/Logo_INSA_CVL.jpg  used on input line 6.
@@ -1568,26 +1554,21 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+) [1
 
- <./figures/logos/Logo_INSA_CVL.jpg>]) (./resume_intro_conclu/abstract.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 \end{abstract}
-                   [1])
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./figures/logos/Logo_
+INSA_CVL.jpg>])
 (/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/out
 /main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 2.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-3.
+1.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1595,7 +1576,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...critique et perspectives}{18}{section.9.1}
+l.38 ...du protocole de recherche}{25}{chapter.10}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1612,48 +1593,23 @@ l.36 ...critique et perspectives}{18}{section.9.1}
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- (./resume_intro_conclu/introduction.tex [3]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 \end{abstract}
-                   [1]) (./part1/part1.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \label{part1}\part{Contexte et problématique}
-                                                   [1
+ (./part1/part1.tex [3] [4
 
-] (./part1/Chap11.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 \chapter
-             {Présentation du domaine et des enjeux en cybersécurité}
-[2]
+] (./part1/Chap11.tex [5]
 Chapitre I.
-) (./part1/Chap12.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Importance de la détection des vulnérabilités} [3
+) (./part1/Chap12.tex [6
 
 ]
 Chapitre II.
-) (./part1/Chap13.tex [4
+) (./part1/Chap13.tex [7
 
 ]
 Chapitre III.
-)) (./part2/part2.tex [5
+)) (./part2/part2.tex [8
 
-] [6
+] [9
 
-] (./part2/Chap21.tex [7]
+] (./part2/Chap21.tex [10]
 Chapitre IV.
 
 Overfull \hbox (29.81944pt too wide) in paragraph at lines 52--52
@@ -1661,21 +1617,21 @@ Overfull \hbox (29.81944pt too wide) in paragraph at lines 52--52
 � des exemples
  []
 
-[8
+[11
 
-]) (./part2/Chap22.tex [9]
+]) (./part2/Chap22.tex [12]
 Chapitre V.
-) (./part2/Chap23.tex [10
+) (./part2/Chap23.tex [13
 
 ]
 Chapitre VI.
-)) (./part3/part3.tex [11
+)) (./part3/part3.tex [14
 
-] [12
+] [15
 
 ] (./part3/Chap31.tex
 Chapitre VII.
-<figures/Distribution of LLM usages in security domains.png, id=369, 793.96625p
+<figures/Distribution of LLM usages in security domains.png, id=357, 793.96625p
 t x 860.21375pt>
 File: figures/Distribution of LLM usages in security domains.png Graphic file (
 type png)
@@ -1683,10 +1639,10 @@ type png)
 Package pdftex.def Info: figures/Distribution of LLM usages in security domains
 .png  used on input line 10.
 (pdftex.def)             Requested size: 386.95897pt x 419.25078pt.
-[13
+[16
 
  <./figures/Distribution of LLM usages in security domains.png>]
-<figures/security-copilot-diagram.png, id=381, 475.4011pt x 268.75406pt>
+<figures/security-copilot-diagram.png, id=368, 475.4011pt x 268.75406pt>
 File: figures/security-copilot-diagram.png Graphic file (type png)
 <use figures/security-copilot-diagram.png>
 Package pdftex.def Info: figures/security-copilot-diagram.png  used on input li
@@ -1694,27 +1650,29 @@ ne 32.
 (pdftex.def)             Requested size: 386.95897pt x 218.76402pt.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 37.
-)
-(./part3/Chap33.tex [14 <./figures/security-copilot-diagram.png>]
+ [17 <./figures/security-copilot-diagram.png>]
+
+LaTeX Warning: Citation '40article' on page 18 undefined on input line 83.
+
+) (./part3/Chap33.tex [18{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm
+/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 Chapitre VIII.
+[19
 
-Package hyperref Warning: Suppressing empty link on input line 2.
-
-[15
-
-])) (./part4/part4.tex [16] [17
+] [20])) (./part4/part4.tex [21] [22
 
 ] (./part4/Chap41.tex
 Chapitre IX.
-[18
+[23
 
-]) (./part4/Chap42.tex [19]
+]) (./part4/Chap42.tex [24]
 Chapitre X.
-) (./part4/Chap43.tex [20
+) (./part4/Chap43.tex [25
 
 ]
 Chapitre XI.
-)) (./resume_intro_conclu/conclusion.tex [21
+)) (./resume_intro_conclu/conclusion.tex [26
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1731,14 +1689,14 @@ l.1 \part{Bibliographie}
                          [1
 
 ])
-Overfull \hbox (361.85626pt too wide) in paragraph at lines 43--43
+Overfull \hbox (361.85626pt too wide) in paragraph at lines 40--40
 \T1/lmtt/m/n/10 Expires = 1743259891 & Signature = OXN2 -[] NDnTwqgEuyxIaXR4DRT
 A3jChwv624CgaMt6cM6enpQxXbQbtqBUY9yXNQ2waViwCOmORJ~ME0qPyOsQJNrpQh6wlNYgknvwrJ7
 xlhypzc~J0S0OFv661gjFUk -[]
  []
 
 
-Overfull \hbox (676.35535pt too wide) in paragraph at lines 43--43
+Overfull \hbox (676.35535pt too wide) in paragraph at lines 40--40
 \T1/lmtt/m/n/10 tR5oWMMslp~57gcysxNIzL4Tf6m~ODTtOBY7f2nZIhdlMYnD4vnQZ -[] QaKBn
 Yp5IyU6FvnR~mcHNPrgGcyOuj~vmtEhtP9c23goy3hVNrugf7NIyNPt4nsrV2B4s~wD9lGQmppJSRTv
 gdV5YWixPv2XlgjON6TCemwAEZ4ay9V7TdVLcWMTFATa5BpAhPOXZUBdft2hR43XXjp86k2907CqA _
@@ -1746,7 +1704,7 @@ gdV5YWixPv2XlgjON6TCemwAEZ4ay9V7TdVLcWMTFATa5BpAhPOXZUBdft2hR43XXjp86k2907CqA _
  []
 
 
-Overfull \hbox (3.3591pt too wide) in paragraph at lines 43--43
+Overfull \hbox (3.3591pt too wide) in paragraph at lines 40--40
 []\T1/lmr/m/it/10 Awesome Au-to-ma-ted Vul-ne-ra-bi-lity De-tec-tion\T1/lmr/m/n
 /10 . 2024. \T1/lmr/m/sc/10 url \T1/lmr/m/n/10 : []$\T1/lmtt/m/n/10 https : / /
  github . com / alan -[] turing -[] institute /
@@ -1757,7 +1715,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43     \input{biblio/biblio}
+l.40     \input{biblio/biblio}
                                [2
 
 ]
@@ -1765,42 +1723,51 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \end{document}
+l.42 \end{document}
                     [3]
 (/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude Bibliographique/out
 /main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 46A2C10E4055794896CE6982CF87E3C5;14448.
+(rerunfilecheck)             Checksum: 8845FA6513FF89E58B7AE3D60F0C7334;14264.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42960 strings out of 476025
- 868482 string characters out of 5790017
+ 42869 strings out of 476025
+ 865509 string characters out of 5790017
  1874388 words of memory out of 5000000
- 62536 multiletter control sequences out of 15000+600000
- 600025 words of font info for 88 fonts, out of 8000000 for 9000
+ 62450 multiletter control sequences out of 15000+600000
+ 599991 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,13n,102p,1149b,3180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,102p,1149b,3180s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/texmf-dist/
-fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
-/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/
-lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dis
-t/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
-/lm/lmtt8.pfb>
+fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
+1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm
+/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/202
+3/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
+ype1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt8
+.pfb>
 Output written on "/Users/thom/Personnel/Scolaire/S8 - Big Data et IA/Étude B
-ibliographique/out/main.pdf" (31 pages, 780094 bytes).
+ibliographique/out/main.pdf" (31 pages, 771809 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 509 compressed objects within 6 object streams
- 108 named destinations out of 1000 (max. 500000)
- 540 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 524 words of extra memory for PDF output out of 10000 (max. 10000000)
 

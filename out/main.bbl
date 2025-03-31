@@ -725,12 +725,39 @@
       \field{month}{11}
       \field{title}{Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions}
       \field{year}{2020}
-      \true{nocite}
       \verb{urlraw}
       \verb https://arxiv.org/pdf/2108.09293
       \endverb
       \verb{url}
       \verb https://arxiv.org/pdf/2108.09293
+      \endverb
+    \endentry
+    \entry{40metrics}{article}{}
+      \name{author}{1}{}{%
+        {{hash=27280dca01c9d89673cce4cc2e9e6233}{%
+           family={Powers},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{27280dca01c9d89673cce4cc2e9e6233}
+      \strng{fullhash}{27280dca01c9d89673cce4cc2e9e6233}
+      \strng{bibnamehash}{27280dca01c9d89673cce4cc2e9e6233}
+      \strng{authorbibnamehash}{27280dca01c9d89673cce4cc2e9e6233}
+      \strng{authornamehash}{27280dca01c9d89673cce4cc2e9e6233}
+      \strng{authorfullhash}{27280dca01c9d89673cce4cc2e9e6233}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Evaluation: From Precision, Recall and F-Measure to ROC, Informedness, Markedness and Correlation}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2010.16061
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2010.16061
       \endverb
     \endentry
     \entry{UDL}{book}{}
@@ -873,7 +900,6 @@
       \field{month}{12}
       \field{title}{IntelliCode Compose: Code Generation using Transformer}
       \field{year}{2021}
-      \true{nocite}
       \verb{urlraw}
       \verb https://arxiv.org/pdf/2005.08025
       \endverb

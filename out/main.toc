@@ -1,47 +1,45 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{Résumé}{1}{Doc-Start}%
-\contentsline {chapter}{Introduction}{3}{Doc-Start}%
-\contentsline {part}{I\hspace {1em}Contexte et problématique}{1}{part.1}%
-\contentsline {chapter}{\numberline {I}Présentation du domaine et des enjeux en cybersécurité}{3}{chapter.1}%
-\contentsline {chapter}{\numberline {II}Importance de la détection des vulnérabilités}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {III}Problèmes des méthodes classiques et défis posés par la détection en temps réel}{5}{chapter.3}%
-\contentsline {part}{II\hspace {1em}Apports scientifiques de l’article}{6}{part.2}%
-\contentsline {chapter}{\numberline {IV}Explication des trois approches (Zero-shot, Few-shot, Fine-tuning)}{8}{chapter.4}%
-\contentsline {section}{\numberline {IV.1}Zero-shot Learning : l’application immédiate des modèles pré-entraînés}{8}{section.4.1}%
-\contentsline {section}{\numberline {IV.2}Few-shot Learning : l’amélioration progressive grâce à des exemples ciblés}{8}{section.4.2}%
-\contentsline {section}{\numberline {IV.3}Fine-tuning : l’adaptation complète à la détection des vulnérabilités}{8}{section.4.3}%
-\contentsline {chapter}{\numberline {V}Présentation des modèles utilisés (CodeBERT, Code-Davinci-002, Text-Davinci-003)}{10}{chapter.5}%
-\contentsline {section}{\numberline {V.1}CodeBERT : un modèle optimisé pour la compréhension du code}{10}{section.5.1}%
-\contentsline {section}{\numberline {V.2}Code-Davinci-002 : un modèle génératif appliqué à la détection}{10}{section.5.2}%
-\contentsline {section}{\numberline {V.3}Text-Davinci-003 : une capacité d’analyse avancée mais limitée}{10}{section.5.3}%
-\contentsline {chapter}{\numberline {VI}Expérimentations et résultats observés}{11}{chapter.6}%
-\contentsline {part}{III\hspace {1em}Impacts et applications}{12}{part.3}%
-\contentsline {chapter}{\numberline {VII}Améliorations du développement logiciel}{13}{chapter.7}%
-\contentsline {section}{\numberline {VII.1}Des outils de détection classique : quel point de départ ?}{13}{section.7.1}%
-\contentsline {subsection}{\numberline {VII.1.1}Détection de vulnérabilités par IA : quelques outils à l'état de l'art}{14}{subsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {VII.1.1.1}Copilot}{14}{subsubsection.7.1.1.1}%
-\contentsline {subsubsection}{\numberline {VII.1.1.2} \texttt {Snyk}, \textit { powered by } \texttt {Deepcode} : un exemple de standard industriel pour la sécurisation de code par IA}{14}{subsubsection.7.1.1.2}%
-\contentsline {subsection}{\numberline {VII.1.2}Cas particulier du code généré par des LLM}{14}{subsection.7.1.2}%
-\contentsline {section}{\numberline {VII.2}Correction et complétion pendant la phase de développement : promesses et difficultés rencontrées}{14}{section.7.2}%
-\contentsline {section}{\numberline {VII.3}Interprétation des métriques de classification présentées}{14}{section.7.3}%
-\contentsline {chapter}{\numberline {VIII}Conséquences pour l'industrie et la recherche}{15}{chapter.8}%
-\contentsline {section}{\numberline {VIII.1}Projets industriels}{15}{section.8.1}%
-\contentsline {section}{\numberline {VIII.2}Continuité de la recherche}{15}{section.8.2}%
-\contentsline {subsection}{\numberline {VIII.2.1}Développement par LLM et évolution en conséquence des méthodes de détection de vulnérabilité}{15}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {VIII.2.2}Large Language Models et détection de vulnérabilités : promesses et limites}{16}{subsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {VIII.2.2.1}Sélection et préparation des données : des méthodes encourageantes}{16}{subsubsection.8.2.2.1}%
-\contentsline {subsubsection}{\numberline {VIII.2.2.2}Failles du modèle et pistes d'amélioration}{16}{subsubsection.8.2.2.2}%
-\contentsline {part}{IV\hspace {1em}Analyse critique et perspectives}{17}{part.4}%
-\contentsline {chapter}{\numberline {IX}Problèmes éthiques et limites des modèles d’IA}{18}{chapter.9}%
-\contentsline {section}{\numberline {IX.1}Analyse critique et perspectives}{18}{section.9.1}%
-\contentsline {subsection}{\numberline {IX.1.1}Biais et équité des modèles}{18}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {IX.1.2}Confidentialité et sécurité des données}{18}{subsection.9.1.2}%
-\contentsline {subsection}{\numberline {IX.1.3}Responsabilité en cas d’erreur}{18}{subsection.9.1.3}%
-\contentsline {chapter}{\numberline {X}Évaluation du protocole de recherche}{20}{chapter.10}%
-\contentsline {chapter}{\numberline {XI}Suggestions d'améliorations et directions futures}{21}{chapter.11}%
-\contentsline {section}{\numberline {XI.1}Perspectives et améliorations possibles}{21}{section.11.1}%
-\contentsline {subsection}{\numberline {XI.1.1}Réduction des faux positifs}{21}{subsection.11.1.1}%
-\contentsline {subsection}{\numberline {XI.1.2}Extension aux langages et frameworks variés}{21}{subsection.11.1.2}%
-\contentsline {subsection}{\numberline {XI.1.3}Étude de l’impact en entreprise}{21}{subsection.11.1.3}%
-\contentsline {chapter}{Conclusion}{21}{subsection.11.1.3}%
+\contentsline {part}{I\hspace {1em}Contexte et problématique}{4}{part.1}%
+\contentsline {chapter}{\numberline {I}Présentation du domaine et des enjeux en cybersécurité}{6}{chapter.1}%
+\contentsline {chapter}{\numberline {II}Importance de la détection des vulnérabilités}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {III}Problèmes des méthodes classiques et défis posés par la détection en temps réel}{8}{chapter.3}%
+\contentsline {part}{II\hspace {1em}Apports scientifiques de l’article}{9}{part.2}%
+\contentsline {chapter}{\numberline {IV}Explication des trois approches (Zero-shot, Few-shot, Fine-tuning)}{11}{chapter.4}%
+\contentsline {section}{\numberline {IV.1}Zero-shot Learning : l’application immédiate des modèles pré-entraînés}{11}{section.4.1}%
+\contentsline {section}{\numberline {IV.2}Few-shot Learning : l’amélioration progressive grâce à des exemples ciblés}{11}{section.4.2}%
+\contentsline {section}{\numberline {IV.3}Fine-tuning : l’adaptation complète à la détection des vulnérabilités}{11}{section.4.3}%
+\contentsline {chapter}{\numberline {V}Présentation des modèles utilisés (CodeBERT, Code-Davinci-002, Text-Davinci-003)}{13}{chapter.5}%
+\contentsline {section}{\numberline {V.1}CodeBERT : un modèle optimisé pour la compréhension du code}{13}{section.5.1}%
+\contentsline {section}{\numberline {V.2}Code-Davinci-002 : un modèle génératif appliqué à la détection}{13}{section.5.2}%
+\contentsline {section}{\numberline {V.3}Text-Davinci-003 : une capacité d’analyse avancée mais limitée}{13}{section.5.3}%
+\contentsline {chapter}{\numberline {VI}Expérimentations et résultats observés}{14}{chapter.6}%
+\contentsline {part}{III\hspace {1em}Impacts et applications}{15}{part.3}%
+\contentsline {chapter}{\numberline {VII}Améliorations du développement logiciel}{16}{chapter.7}%
+\contentsline {section}{\numberline {VII.1}Des outils de détection classique : quel point de départ ?}{16}{section.7.1}%
+\contentsline {subsection}{\numberline {VII.1.1}Détection de vulnérabilités par IA : quelques outils à l'état de l'art}{17}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {VII.1.1.1}Copilot}{17}{subsubsection.7.1.1.1}%
+\contentsline {subsubsection}{\numberline {VII.1.1.2} \texttt {Snyk}, \textit { powered by } \texttt {Deepcode} : un exemple de standard industriel pour la sécurisation de code par IA}{17}{subsubsection.7.1.1.2}%
+\contentsline {subsection}{\numberline {VII.1.2}Cas particulier du code généré par des LLM}{17}{subsection.7.1.2}%
+\contentsline {section}{\numberline {VII.2}Interprétation des métriques de classification présentées}{18}{section.7.2}%
+\contentsline {section}{\numberline {VII.3}Correction et complétion pendant la phase de développement : promesses et difficultés rencontrées}{18}{section.7.3}%
+\contentsline {chapter}{\numberline {VIII}Conséquences pour l'industrie et la recherche}{19}{chapter.8}%
+\contentsline {section}{\numberline {VIII.1}Projets industriels}{19}{section.8.1}%
+\contentsline {section}{\numberline {VIII.2}Continuité de la recherche}{19}{section.8.2}%
+\contentsline {subsection}{\numberline {VIII.2.1}Développement par LLM et évolution en conséquence des méthodes de détection de vulnérabilité}{19}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {VIII.2.2}Large Language Models et détection de vulnérabilités : promesses et limites}{20}{subsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {VIII.2.2.1}Sélection et préparation des données : des méthodes encourageantes}{20}{subsubsection.8.2.2.1}%
+\contentsline {subsubsection}{\numberline {VIII.2.2.2}Failles du modèle et pistes d'amélioration}{20}{subsubsection.8.2.2.2}%
+\contentsline {part}{IV\hspace {1em}Analyse critique et perspectives}{22}{part.4}%
+\contentsline {chapter}{\numberline {IX}Problèmes éthiques et limites des modèles d’IA}{23}{chapter.9}%
+\contentsline {section}{\numberline {IX.1}Analyse critique et perspectives}{23}{section.9.1}%
+\contentsline {subsection}{\numberline {IX.1.1}Biais et équité des modèles}{23}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {IX.1.2}Confidentialité et sécurité des données}{23}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {IX.1.3}Responsabilité en cas d’erreur}{23}{subsection.9.1.3}%
+\contentsline {chapter}{\numberline {X}Évaluation du protocole de recherche}{25}{chapter.10}%
+\contentsline {chapter}{\numberline {XI}Suggestions d'améliorations et directions futures}{26}{chapter.11}%
+\contentsline {section}{\numberline {XI.1}Perspectives et améliorations possibles}{26}{section.11.1}%
+\contentsline {subsection}{\numberline {XI.1.1}Réduction des faux positifs}{26}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {XI.1.2}Extension aux langages et frameworks variés}{26}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {XI.1.3}Étude de l’impact en entreprise}{26}{subsection.11.1.3}%
+\contentsline {chapter}{Conclusion}{26}{subsection.11.1.3}%
 \contentsline {part}{V\hspace {1em}Bibliographie}{1}{part.5}%

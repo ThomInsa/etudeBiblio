@@ -1,5 +1,5 @@
 \chapter{Conséquences pour l'industrie et la recherche}
-    Nous avons vu en\ref{part1} une entrevue des coûts réels des vulnérabilités logicielles
+    Nous avons entrevu en\ref{part1} les coûts réels des vulnérabilités logicielles
     pour les entreprises et les institutions publiques. La littérature scientifique à ce sujet
     est vaste\cite{vuln_cost},\cite{vuln_cost2} et montre l'importance que revêt le
     développement et le déploiement d'outils de détection de vulnérabilités logicielles plus
@@ -44,15 +44,40 @@
         \subsection{Large Language Models et détection de vulnérabilités : promesses et limites}
 
             \subsubsection{Sélection et préparation des données : des méthodes encourageantes}
-                % 4 articles citant le principal
+                L'article principal a ouvert la voie à un nouveau paradigme de programmation
+                reposant largement sur l'utilisation de LLM d'une part pour la génération de
+                code et d'autre part pour la détection de vulnérabilités dans ce même code.
+
+                En particulier, les méthodes de collecte et de préparation des données
+                d'entraînement sont saluées et reprises dans les publications récentes citées
+                plus haut.
+
+                Expliquer en détail ces méthodes dépasserait le cadre de cette étude, mais on
+                l'on peut souligner que celles-ci reposent sur la définition d'une corrélation
+                entre les caractéristiques des données, les tâches de sécurité et le
+                comportement des LLMs.
             \subsubsection{Failles du modèle et pistes d'amélioration}
                 \paragraph*{Compromis entre taille du modèle et délai de réponse}
+                    L'article et les publications associées insistent sur l'importance de la
+                    rapidité du modèle, par définition. En effet, la contrainte principale étant
+                    d'identifier les vulnérabilités en temps réel, celui-ci doit présenter un
+                    temps de réflexion maximum inférieur aux valeurs que l'on peut observer lors
+                    d'une utilisation "classique" de LLM comme Claude Sonnet 3.7 ou GPT-4o.
+
+                    L'enjeu est de définir un modèle suffisamment rapide pour que le développeur
+                    soit averti de son erreur avant de passer à l'étape suivante de son projet.
+                    À ce stade, les publications étudiées font peu mention de ce problème, et
+                    encore moins des moyens pour le résoudre.
                 \paragraph*{Vulnérabilités non détectées}
+
+                    Les vulnérabilités couvertes par les données d'entraînement sont rappelées
+                    par le tableau suivant :
+
                     \begin{table}[H]
                         \centering
                         \begin{tabular}{lcc}
                                 \toprule
-                                \textbf{Vulnerability} & \textbf{CWE} & \textbf{N} \\
+                                \textbf{Vulnerability}  \textbf{CWE} & \textbf{N} \\
                                 \midrule
                                 \text{SQL Injection} & 89 & 45 \\
                                 \text{Hardcoded Credentials} & 798 & 23 \\
@@ -67,12 +92,39 @@
                         recueillis à partir des PR GitHub\cite{mainArticle}}
                     \end{table}
 
+                    Le choix de se concentrer sur ces vulnérabilités n'est pas anodin et découle
+                    d'une réflexion nourrie par le framework \texttt{MITRE}. Cependant,
+                    plusieurs vulnérabilités potentiellement critiques ne sont pas couvertes.
+                    Citons en particulier des vulnérabilités pour le développement Web de type :
+
+                    \begin{itemize}
+                        \item Cross-Site Scripting (XSS)
+                        \item Cross-Site Request Forgery (CSRF)
+                        \item XML External Entity (XXE)
+                        \item Fuzz Testing
+                        \item DDoS
+                    \end{itemize}
+
+                    Ces vulnérabilités peuvent entraîner l'exfiltration de données sensibles,
+                    voire la prise de contrôle de sessions utilisateurs.
+
+                    \begin{tcolorbox}[colback=linkborder_Color!5!white,colframe=linkborder_Color!75!black]
+                        Par ailleurs, notre étude rappelle que les différents types de
+                        vulnérabilités ont
+                        été étudiées séparément \cite{mainArticle} \cite{38metrics}, le
+                        framework d'évaluation visant initialement à identifier quelles
+                        vulnérabilités pouvaient être générées par \texttt{Copilot} et sous
+                        quelles conditions. Cependant, dans le cadre de l'article principal, il
+                        aurait été intéressant de confronter les modèles à un projet se rapprochant
+                        plus de la réalité, où différentes vulnérabilités peuvent coexister.
+                    \end{tcolorbox}
+
 
 
                 \paragraph*{Langages non couverts}
                     L'étude a choisi de se concentrer sur 7 langages de programmation
                     universels. Cette sélection est difficilement contestable si l'on se réfère
-                    à leur omniprésence historique et actuelle dans le développement logiciel \textit{(Indice TIOBE en mars 2025\footnote{https://www.tiobe.com/tiobe-index/})}.
+                    à leur omniprésence historique et actuelle dans le développement logiciel \textit{(Indice TIOBE en mars 2025\footnote{\url{https://www.tiobe.com/tiobe-index/}})}.
 
                     Cependant, on peut penser que l'étude pourrait renforcer son impact si elle
                     était prolongée sur des langages moins utilisés mais tout de même bien
@@ -82,8 +134,7 @@
                         \centering
                         \begin{tabular}{lccc}
                             \toprule
-                            \textbf{Langage} & \textbf{Nombre de CWE couvertes} &
-                            \textbf{Codes vulnérables} & \textbf{Codes non vulnérables} \\
+                            \textbf{Langage} & \textbf{Nombre de CWE couvertes} & \textbf{Codes vulnérables} & \textbf{Codes non vulnérables} \\
                             \midrule
                             \texttt{Javascript} & 70 & 266,342 & 2,293,712 \\
                             \texttt{Python} & 37 & 149,158 & 1,493,972 \\

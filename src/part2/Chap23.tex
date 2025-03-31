@@ -9,76 +9,14 @@ approches selon des critères de précision et de rappel.
             \toprule
             \textbf{Approche} & \textbf{Modèle} & \textbf{Précision} & \textbf{Rappel} & \textbf{Observations} \\
             \midrule
-
-  \textbf{Zero-shot}
-
-
-   &
-  Text-Davinci-003
-
-
-   &
-  ~50%
-
-
-   &
-  78%
-
-
-   &
-  Nombre élevé de faux positifs.
-
-
-   \\
-
-  \textbf{Few-shot}
-
-
-   &
-  Code-Davinci-002
-
-
-   &
-  ~55%
-
-
-   &
-  70%
-
-
-   &
-  Meilleure contextualisation des
-  vulnérabilités.
-
-
-   \\
-
-  \textbf{Fine-tuning}
-
-
-   &
-  CodeBERT
-
-
-   &
-  59%
-
-
-   &
-  63%
-
-
-   &
-  Meilleur équilibre entre détection et
-  précision.
-
-
-   \\
+        \textbf{Zero-shot} & Text-Davinci-003 & ~50\% & 78\% & Nombre élevé de faux positifs. \\
+        \textbf{Few-shot} & Code-Davinci-002 & ~55\% & 70\% & Meilleure contextualisation des vulnérabilités. \\
+        \textbf{Fine-tuning} & CodeBERT & 59\% & 63\% & Meilleur équilibre entre détection et précision. \\
             \bottomrule
         \end{tabular}
         \caption{Performances des modèles étudiés}
         \label{tab:}
-    \end{table}
+\end{table}
 
 
 Les résultats montrent que \textbf{CodeBERT
